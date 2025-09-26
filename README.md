@@ -111,7 +111,7 @@ Configuración de JSON Server
 
 Estructura de carpetas:
 
-- 📂 <nombre-proyecto>
+- 📂 nombre-proyecto
   - 📁 server
 
 📄 <modulo-dominio>.json
