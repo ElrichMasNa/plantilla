@@ -103,7 +103,7 @@ Archivos de idioma:
   }
 }
 ```
-Reemplaza <entidad>, <EntidadPlural>, <api-nombre>, <team> y los campos según tu proyecto.
+Reemplaza entidad, EntidadPlural, api-nombre, team y los campos según tu proyecto.
 
 
 
@@ -114,7 +114,7 @@ Estructura de carpetas:
 - 📂 nombre-proyecto
   - 📁 server
 
-📄 <modulo-dominio>.json
+📄 modulo-dominio.json
 ```bash
 {
   "<EntidadPlural>": [
@@ -131,7 +131,7 @@ json-server --watch server/<modulo-dominio>.json --port 3000
 Probar en navegador:
 
 http://localhost:3000/
-<EntidadPlural>
+EntidadPlural
 
 Configuración de environments
 ```bash
@@ -189,18 +189,18 @@ ng generate component <modulo-dominio>/presentation/components/<entidad>-card --
 ```bash
 ng generate component <modulo-dominio>/presentation/components/<entidad>-list --skip-tests=true
 ```
-Reemplaza <modulo-dominio> y <entidad> según corresponda (ejemplo: cities, products, users).
+Reemplaza modulo-dominio y entidad según corresponda (ejemplo: cities, products, users).
 
 
 Personaliza con:
 
-<nombre-proyecto> → nombre de tu proyecto
+nombre-proyecto → nombre de tu proyecto
 
-<modulo-dominio> → carpeta de dominio (ej. cities, products)
+modulo-dominio → carpeta de dominio (ej. cities, products)
 
-<entidad> / <EntidadPlural> → nombre de la entidad (ej. city / cities)
+entidad / EntidadPlural → nombre de la entidad (ej. city / cities)
 
-<apiBaseUrl> → endpoint real de la API
+apiBaseUrl → endpoint real de la API
 
 <team> → tu nombre o el del equipo
 
