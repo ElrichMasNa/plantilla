@@ -184,10 +184,10 @@ ng generate component shared/presentation/components/language-switcher --skip-te
 ng generate component shared/presentation/components/layout --skip-tests=true
 ```
 ```bash
-ng generate component <modulo-dominio>/presentation/components/<entidad>-card --skip-tests=true
+ng generate component modulo-dominio/presentation/components/entidad-card --skip-tests=true
 ```
 ```bash
-ng generate component <modulo-dominio>/presentation/components/<entidad>-list --skip-tests=true
+ng generate component modulo-dominio/presentation/components/entidad-list --skip-tests=true
 ```
 Reemplaza modulo-dominio y entidad según corresponda (ejemplo: cities, products, users).
 
